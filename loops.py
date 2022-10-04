@@ -31,10 +31,17 @@ def loop():
     
     
  #while loops
-  coins = 30
-  while coins> 0:
-      print(f"i have{coins}coins")
-      coins += +1 
+  # coins = 30
+  # while coins> 0:
+  #     print(f"i have{coins}coins")
+  #     coins += +1 
+
+ answer = "y"
+ while answer == "y":
+  answer = input("do you want to continue(y/n)")
+ else:
+  print("thank you")
+  
       # For Loops Practice #1
     # Using For loops, greet all members of a class, printing "Hello" + their name.
     
